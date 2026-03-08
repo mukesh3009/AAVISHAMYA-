@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>AAVISHAMYA | Expert IT & Computer Repair in Mumbai</title>
+  <meta name="description" content="AAVISHAMYA (Unique IT Care) provides expert laptop, desktop, and motherboard chip-level repair services in Bhandup West, Mumbai.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+
+  <nav>
+    <h2>AAVISHAMYA</h2>
+    <div class="hamburger" id="hamburger">
+      
+      <span></span><span></span><span></span>
+    </div>
+    <div class="nav-links" id="nav-links">
+      <button onclick="toggleDarkMode()" id="theme-btn">🌙</button>
+      <a href="#about">About Us</a>
+      <a href="#services">Services</a>
+      <a href="#why-us">Why Us</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#contact">Contact</a>
+      
+    </div>
+  </nav>
+
+  <header>
+    <video autoplay muted loop playsinline class="back-video">
+    <source src="v.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+    <h1 class="reveal">AAVISHAMYA</h1>
+    <p class="reveal delay-1" style="font-size: 1.5rem; margin-top: -10px; margin-bottom: 5px;">(Unique IT Care)</p>
+    
+    <div class="reveal delay-2 typing-container" style="font-size: clamp(1.2rem, 2vw, 1.5rem); margin-bottom: 2.5rem; color: #cbd5e1; height: 35px;">
+      Expert in <span id="typed-text" style="color: #60a5fa; font-weight: 600;"></span><span class="cursor">|</span>
+    </div>
+
+    <button class="reveal delay-3" onclick="document.getElementById('services').scrollIntoView()">Explore Our Services</button>
+  </header>
+<section id="about">
+    <h2 class="reveal">About Us</h2>
+    <div class="about-grid reveal delay-1">
+      <div class="about-text">
+        <h3 style="color: var(--accent-color); font-size: 1.5rem; margin-bottom: 1rem;">AAVISHAMYA (Unique IT Care)</h3>
+        <p>AAVISHAMYA is a professional IT and computer repair company based in Bhandup West, Mumbai. With years of hands-on experience in the industry, we specialize in advanced motherboard chip-level repairs, hardware upgrades, and complete IT support.</p>
+        <p>Our mission is to provide reliable, transparent, and high-quality technical solutions for businesses and individuals alike. Whether you are dealing with a dead laptop, a slow PC needing an SSD upgrade, or critical data recovery, our expert technicians are dedicated to bringing your devices back to life efficiently and affordably.</p>
+      </div>
+      <img src="image5.png" alt="Technician repairing motherboard" class="about-img">
+    </div>
+  </section>
+<section id="services">
+    <h2 class="reveal">Our Services</h2>
+    <div class="grid-container">
+      
+      <div class="card service-card reveal delay-1">
+        <img src="image0.png" alt="Laptop Repair" class="service-img">
+        <div class="service-info">
+          <div class="card-icon">💻</div>
+          <h3>Laptop & Desktop Repair</h3>
+        </div>
+      </div>
+
+      <div class="card service-card reveal delay-2">
+        <img src="image1.png" alt="Motherboard Repair" class="service-img">
+        <div class="service-info">
+          <div class="card-icon">🔬</div>
+          <h3>Motherboard Chip-Level Repair</h3>
+        </div>
+      </div>
+
+      <div class="card service-card reveal delay-3">
+        <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789" alt="No Power Fix" class="service-img">
+        <div class="service-info">
+          <div class="card-icon">🔌</div>
+          <h3>No Power / No Display Issue Repair</h3>
+        </div>
+      </div>
+
+      <div class="card service-card reveal delay-1">
+        <img src="image2.png" alt="SSD Upgrade" class="service-img">
+        <div class="service-info">
+          <div class="card-icon">🚀</div>
+          <h3>SSD Upgrade & OS Installation</h3>
+        </div>
+      </div>
+
+      <div class="card service-card reveal delay-2">
+        <img src="image3.png" alt="Keyboard and Battery" class="service-img">
+        <div class="service-info">
+          <div class="card-icon">⌨️</div>
+          <h3>Keyboard, Battery & Display Replacement</h3>
+        </div>
+      </div>
+
+      <div class="card service-card reveal delay-3">
+        <img src="image4.png" alt="Data Recovery" class="service-img">
+        <div class="service-info">
+          <div class="card-icon">💾</div>
+          <h3>Data Backup & Recovery</h3>
+        </div>
+      </div>
+
+      <div class="card service-card reveal delay-1">
+        <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7" alt="Desktop Assembly" class="service-img">
+        <div class="service-info">
+          <div class="card-icon">⚙️</div>
+          <h3>Desktop Assembly & Upgrade</h3>
+        </div>
+      </div>
+
+      <div class="card service-card reveal delay-2">
+        <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8" alt="IT Networking" class="service-img">
+        <div class="service-info">
+          <div class="card-icon">🌐</div>
+          <h3>Basic Networking & IT Support</h3>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="why-us">
+    <h2 class="reveal">Why Choose Us</h2>
+    <div class="grid-container">
+      
+      <div class="card reveal delay-1">
+        <div class="card-icon">🎯</div>
+        <h3>Expert Chip-Level Repair</h3>
+        <p>Skilled in motherboard, laptop, desktop, and advanced electronic diagnostics with <strong>root-cause solutions</strong>.</p>
+      </div>
+      
+      <div class="card reveal delay-2">
+        <div class="card-icon">🤝</div>
+        <h3>Transparent & Honest Service</h3>
+        <p>Clear explanation of issues and costs upfront. <strong>No hidden charges.</strong></p>
+      </div>
+      
+      <div class="card reveal delay-3">
+        <div class="card-icon">🛡️</div>
+        <h3>Quality Parts & Warranty</h3>
+        <p>Only tested components used, with <strong>up to 6 months warranty</strong> on motherboard repairs.</p>
+      </div>
+      
+      <div class="card reveal delay-1">
+        <div class="card-icon">⏱️</div>
+        <h3>Quick Turnaround</h3>
+        <p>Fast and efficient service without compromising repair quality.</p>
+      </div>
+      
+      <div class="card reveal delay-2">
+        <div class="card-icon">🏢</div>
+        <h3>One-Stop IT Solution</h3>
+        <p>Complete laptop, desktop, and IT support services under one roof.</p>
+      </div>
+      
+      <div class="card reveal delay-3">
+        <div class="card-icon">📍</div>
+        <h3>Trusted Local Experts</h3>
+        <p>Serving customers in <strong>Bhandup West, Mumbai</strong> with proven reliability.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2 class="reveal">What Our Clients Say</h2>
+    <div class="grid-container">
+      <div class="card review-card reveal delay-1">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>"AAVISHAMYA completely saved my laptop. The motherboard was dead, and they fixed it within two days when others told me to buy a new one."</p>
+        <h4>- Rahul S.</h4>
+      </div>
+      <div class="card review-card reveal delay-2">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>"Very transparent pricing and honest service. Upgraded my old PC with an SSD and it runs like brand new."</p>
+        <h4>- Priya M.</h4>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="reveal">
+    <h2>Visit Us Today</h2>
+    <div class="contact-details">
+      <p><strong>AAVISHAMYA (Unique IT Care)</strong></p>
+      <p>📍 MMRDA Colony, Subhash Nagar,<br>Bhandup West, Mumbai, Maharashtra – 400078</p>
+    </div>
+    <a href="https://wa.me/918888158967" target="_blank" class="whatsapp-btn">💬 Chat on WhatsApp: 8888158967</a>
+  </section>
+
+  <footer>
+    © 2026 AAVISHAMYA (Unique IT Care). All Rights Reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
