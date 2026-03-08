@@ -159,7 +159,14 @@ header::after {
 }
 
 /* Ensure Hero content stays on top of video and overlay */
-header h1, 
+/* --- HERO (Updated Color) --- */
+header h1 { 
+    font-size: clamp(2.5rem, 8vw, 5rem); 
+    margin-bottom: 1rem; 
+    font-weight: 800; 
+    color: #ffffff; /* <--- Change this line to your preferred color */
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.9); /* Adds a heavy shadow for readability */
+}
 header p, 
 header .typing-container,
 header button {
@@ -390,4 +397,5 @@ transform:translate(-50%,-50%);
   body {
     cursor: none; /* Keep it hidden to show your custom one */
   }
+
 }
